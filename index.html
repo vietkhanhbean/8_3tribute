@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From 12A05 with love ❤️</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="falling-petals"></div>
+  
+  <header>
+    <h1>From 12A05 with love <i class="fas fa-heart"></i></h1>
+    <p class="subtitle">Cảm ơn vì đã mang đến những khoảnh khắc tuyệt vời</p>
+  </header>
+
+  <section class="photo-gallery">
+    <h2>Kỷ Niệm Đáng Nhớ</h2>
+    <div class="gallery-container">
+      <div class="gallery-item" data-title="Hội trại xuân">
+        <img src="assets/htx.jpg" alt="Hội trại xuân">
+        <div class="overlay">
+          <div class="overlay-content">
+            <div class="overlay-title">Hội trại xuân</div>
+            <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-title="Tập thể lớp">
+        <img src="assets/tapthe.jpg" alt="Tập thể lớp">
+        <div class="overlay">
+          <div class="overlay-content">
+            <div class="overlay-title">Tập thể lớp</div>
+            <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-title="20/11">
+        <img src="assets/2011.png" alt="20/11">
+        <div class="overlay">
+          <div class="overlay-content">
+            <div class="overlay-title">20/11</div>
+            <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-title="Văn nghệ">
+        <img src="assets/vannghe.jpg"" alt="Văn nghệ">
+        <div class="overlay">
+          <div class="overlay-content">
+            <div class="overlay-title">Văn nghệ</div>
+            <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-title="Hội trại truyền thống">
+        <img src="assets/httt.jpg" alt="Hội trại truyền thống">
+        <div class="overlay">
+          <div class="overlay-content">
+            <div class="overlay-title">Hội trại truyền thống</div>
+            <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item" data-title="Trò chơi">
+        <img src="assets/trochoi.jpg" alt="Trò chơi">
+        <div class="overlay">
+          <div class="overlay-content">
+            <div class="overlay-title">Trò chơi</div>
+            <div class="overlay-icon"><i class="fas fa-search-plus"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div id="gallery-modal" class="modal">
+    <span class="close-modal">&times;</span>
+    <div class="modal-content">
+      <div class="modal-navigation">
+        <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+      <img id="modal-img" src="">
+      <div id="modal-caption"></div>
+    </div>
+  </div>
+
+  <div class="cta-section">
+    <h2>Các lời chúc</h2>
+    <p>Những lời chúc từ tấm lòng của tụi mình</p>
+    <a href="wishes.html" class="cta-button">Xem Lời Chúc <i class="fas fa-heart"></i></a>
+  </div>
+
+  <footer>
+    <p>Với tất cả sự trân trọng và biết ơn ❤️</p>
+    <p class="copyright">© <span id="year"></span> - Tập thể lớp 12A05</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
